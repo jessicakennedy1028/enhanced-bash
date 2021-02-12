@@ -2,10 +2,10 @@
 
 Help is activated by pressing the F1 or Alt-H key.
 
-<img src="https://gitlab.com/public_scope/bash-projects/enhanced-bash-system/-/raw/master/documentation/images/commands.png" />
+<img src="./images/commands.png" />
 
 ___
-[<img src="https://gitlab.com/public_scope/bash-projects/enhanced-bash-system/-/raw/master/documentation/images/icons/home.png" width="24" />](https://gitlab.com/public_scope/bash-projects/enhanced-bash-system/-/blob/master/documentation/home.md) [Home](https://gitlab.com/public_scope/bash-projects/enhanced-bash-system/-/blob/master/documentation/home.md)
+[<img src="./images/icons/home.png" width="24" />](https://gitlab.com/public_scope/bash-projects/enhanced-bash-system/-/blob/master/documentation/home.md) [Home](https://gitlab.com/public_scope/bash-projects/enhanced-bash-system/-/blob/master/documentation/home.md)
 ___
 
 
