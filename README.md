@@ -12,12 +12,15 @@ Something very important to say here, although I have came up with the concept o
 ## The Concept
 I have been borrowing other peoples scripts, building my own script, using different environments for root, development and it seems like my Linux commands would change and then I would forget, and then I feel like a noob scouring the net to find the right argument for this particular distro and version. I wanted to have the ability to have a configuration file that can be easily modified when I change locations or servers I do not have to modify the code in a million different places to match my location. I work in one city and live in another, one of my modules is a nice little weather and calendar function. By changing the city in the config file updates all of my other geo-location information.
 
+https://github.com/jessicakennedy1028/enhanced-bash/tree/master/documentation
+https://github.com/jessicakennedy1028/enhanced-bash/blob/master/documents/help-screen.md
+
 ## Help Topics Menu
 |   |   |   |
 |---|---|---|
-| [<img src="./documentation/images/icons/browser_help.png">](./documents/help-arguments.md) [Help arguments](./documents/help-arguments.md)  |  [<img src="./documentation/images/icons/terminal_utilities.png" />](./documents/help-screen.md) [Help Screen](./documents/help-screen.md)  |  [<img src="./documentation/images/icons/system_users.png">](./documents/contributing.md) [Contributing](./documents/contributing.md)  |
-| [<img src="./documentation/images/icons/alias.png" />](./documents/aliases.md) [Aliases](./documents/aliases.md)                            |  [<img src="./documentation/images/icons/application_executable.png" />](./documents/modules.md) [Modules](./documents/modules.md) | [<img src="./documentation/images/icons/applications_other.png" />](./documents/libraries.md) [Libraries](./documents/libraries.md)  |
-| [<img src="./documentation/images/icons/applications_system.png" />](./documents/over-rides.md) [Over Rides](./documents/over-rides.md)  |  [<img src="./documentation/images/icons/document_properties.png" />](./documents/logs.md) [Logs](./documents/logs.md)  |  [<img src="./documentation/images/icons/generic_package.png" />](./documents/installation.md) [Installation](./documents/installation.md) |
+| [<img src="./documentation/images/icons/browser_help.png">](./documentation/help-arguments.md) [Help arguments](./documentation/help-arguments.md)  |  [<img src="./documentation/images/icons/terminal_utilities.png" />](./documentation/help-screen.md) [Help Screen](./documentation/help-screen.md)  |  [<img src="./documentation/images/icons/system_users.png">](./documentation/contributing.md) [Contributing](./documentation/contributing.md)  |
+| [<img src="./documentation/images/icons/alias.png" />](./documentation/aliases.md) [Aliases](./documentation/aliases.md)                            |  [<img src="./documentation/images/icons/application_executable.png" />](./documentation/modules.md) [Modules](./documentation/modules.md) | [<img src="./documentation/images/icons/applications_other.png" />](./documentation/libraries.md) [Libraries](./documentation/libraries.md)  |
+| [<img src="./documentation/images/icons/applications_system.png" />](./documentation/over-rides.md) [Over Rides](./documentation/over-rides.md)  |  [<img src="./documentation/images/icons/document_properties.png" />](./documentation/logs.md) [Logs](./documentation/logs.md)  |  [<img src="./documentation/images/icons/generic_package.png" />](./documentation/installation.md) [Installation](./documentation/installation.md) |
 
 ___
 >>>
