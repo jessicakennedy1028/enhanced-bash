@@ -12,6 +12,18 @@ Something very important to say here, although I have came up with the concept o
 ## The Concept
 I have been borrowing other peoples scripts, building my own script, using different environments for root, development and it seems like my Linux commands would change and then I would forget, and then I feel like a noob scouring the net to find the right argument for this particular distro and version. I wanted to have the ability to have a configuration file that can be easily modified when I change locations or servers I do not have to modify the code in a million different places to match my location. I work in one city and live in another, one of my modules is a nice little weather and calendar function. By changing the city in the config file updates all of my other geo-location information.
 
+## Installation
+Overall the installation should be pretty quick and easy. Be forewarned, this is still a single person testing on multiple environments, my testing scope is rather limited. The installation is simply this:
+
+```bash
+git clone https://github.com/jessicakennedy1028/enhanced-bash.git
+cd enhanced-bash
+./install.sh
+```
+-- Close the terminal and reopen, you should see Press F1 or Alt-H for Help
+
+It should do everything that it needs to do to work, to break it further, I have added an (./documentation/installation.md)[Installation] section to the documents.
+
 ## Help Topics Menu
 |   |   |   |
 |---|---|---|
