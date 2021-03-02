@@ -22,7 +22,14 @@ cd enhanced-bash
 ```
 -- Close the terminal and reopen, you should see Press F1 or Alt-H for Help
 
-It should do everything that it needs to do to work, to break it further, I have added an (./documentation/installation.md)[Installation] section to the documents.
+It should do everything that it needs to do to work, to break it down further, I have added an [Installation](./documentation/installation.md) section to the documents.
+
+## Removal
+Just as easy as it is to install, it should be just as easy as it is to remove. When this is installed, the installation script will copy original .bashrc to .bashrc-YYYYMMDD-HHMMSS-EBS (If there are multiple of those, it means you have tried to install more than once). Find the one that contains your .bashrc contents (Which should be the oldest one), and rename it back to .bashrc
+
+All of the files are located in the ~/.local/share/applications/enhanced-bash folder. Delete that folder and if you like you may uninstall the dependent applications that it installed for you. Which are ```jq git curl highlight most wget python3 python3-pip``` you may use: ```sudo yum|dnf|apt remove jq git curl highlight most wget python3 python3-pip```
+
+Finally one last thing is the logrotate configuration it created by removing the /etc/logrotate.d$/enhanced-bash configuration file. All of Enhanced BASH has been scrubbed from your system.
 
 ## Help Topics Menu
 |   |   |   |
