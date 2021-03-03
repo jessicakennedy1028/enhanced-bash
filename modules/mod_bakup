@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-function bakup() {
+function duplicate() {
     # title             :Enhanced BASH Backup File System
     # description       :A module to backup a directory or file
     # author            :Jessica Brown
@@ -13,15 +13,7 @@ function bakup() {
     baktimestamp=$(LC_ALL=C date +%Y%m%d_%H%M%S)
 
     if [ "$1" = "--help" ] || [ "$1" = "-h" ]; then
-        help_screen 6 2
-        cursorpos up 17; cursorpos col 32; echo -e "${White}BAK (version ${version})"
-        cursorpos down 3; cursorpos col 3; echo -e "${Aqua}bakup ${White}- ${Silver}Backup a file or directory with the current date and timestamp."
-        cursorpos down 2; cursorpos col 3; echo -e "${Maroon}NOTICE: ${White}If the .backup folder does not exists, this will command will fail."
-        cursorpos down 1; cursorpos col 3; echo -e "${White}The .backup folder should have been created automatically during the install"
-        cursorpos down 1; cursorpos col 3; echo -e "${White}script. If the .backup folder does not exist, you are able to create it."
-        cursorpos down 3; cursorpos col 3; echo -e "${White}EXAMPLE"
-        cursorpos down 3; cursorpos col 3; echo -e "${Silver}$ ${Yellow5}bakup ${Lime}[${CornflowerBlue}filename.ext ${Aqua}| ${CornflowerBlue}directory${Lime}]"
-        cursorpos down 4; echo -e ${txtReset}
+        cat ${binLocation}${dirSeperator}${helpSubPath}${dirSeperator}hlp_bakup.dat
     else
         if [ -d $archiveLocation ]; then
             if [ -d $1 ]; then

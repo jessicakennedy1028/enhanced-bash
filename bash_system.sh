@@ -3,7 +3,7 @@
 # description			:This is a start up script to make your bash experience useful
 # author				:Jessica Brown
 # date					:2019-12-20
-# version				:4.0.0
+export ebversion = 		"4.2.1"
 # usage					:After install, just open a terminal
 # notes					:This script is self installing
 # bash_version	:4.1.5(1)-release
@@ -20,7 +20,7 @@
 #	DONE - 7. Variables should be loaded from a library file, except path locations
 #	DONE - 8. Create a config file for users to easily change custom variables
 
-scriptLocation="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+export scriptLocation="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 [ -f "${scriptLocation}/bin/log_system.sh" ] && source "${scriptLocation}/bin/log_system.sh" || echo "System files are not found, installation was not successful."
 [ -f "${scriptLocation}/bin/bash.conf" ] && source "${scriptLocation}/bin/bash.conf" || echo "The configuration file could not be found."

@@ -12,16 +12,7 @@
 
 function addalias() {
     if [ "$1" = "--help" ] || [ "$1" = "-h" ]; then
-        help_screen 6 3
-        cursorpos up 18; cursorpos col 28; echo -e "${White}ADD ALIAS (version 2.0)"
-        cursorpos down 3; cursorpos col 4; echo -e "${Aqua}addalias ${White}- ${Silver}Adds the last command executed to the aliases file."
-        cursorpos down 2; cursorpos col 4; echo -e "${Maroon}NOTICE: ${White}Take care in last executed commands, this script does not verify if"
-        cursorpos down 1; cursorpos col 4; echo -e "${White}last command was successful for failed, nor is there any sanity check on"
-        cursorpos down 1; cursorpos col 4; echo -e "${White}commands."
-        cursorpos down 3; cursorpos col 4; echo -e "${White}EXAMPLE"
-        cursorpos down 3; cursorpos col 4; echo -e "${Silver}$ ${White}cat /var/log/syslog ${Green}# last executed command"
-        cursorpos down 1; cursorpos col 4; echo -e "${Silver}$ ${White}addalias view_syslog ${Green}# view_syslog is now an alias of the previous command${txtReset}"
-        cursorpos down 4
+        cat ${binLocation}${dirSeperator}${helpSubPath}${dirSeperator}hlp_addalias.dat
     else
         if [[ "$#" -ne 1 ]]; then
             echo -e "${Red}USAGE: ${Silver}addalias <alias>${txtReset}"

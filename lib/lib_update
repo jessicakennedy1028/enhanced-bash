@@ -25,3 +25,7 @@
 #
 #    cd ${HOME}
 #}
+
+function ebupdate() {
+    echo "Current Enhanced BASH version ${ebversion}"
+}
